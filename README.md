@@ -15,13 +15,15 @@ Then run the following command to generate the executable jar:
 mvn clean package install
 ```
 
-This jar gets generated in the target folder.
+This jar gets generated in the target folder withing the current directory.
 
 You can then execute the project as follows:
+
+```
 java -jar target/<name_of_the_executable_jar>
+```
 
-Open the broser and type the following: 
-
+Open the browser and type the following: 
 ```
 http://localhost:8080/#/app/
 ```
